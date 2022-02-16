@@ -3,15 +3,18 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div className="bg-white h-screen flex flex-col justify-center items-center">
-      <h1 className="lg:text-9xl md:text-7xl sm:text-5xl text-4xl font-bold mb-14">
+    <div className="flex h-screen flex-col items-center justify-center bg-white">
+      <h1 className="mb-14 text-4xl font-bold sm:text-5xl md:text-7xl lg:text-9xl">
         Hero
       </h1>
-      <Link to="/order-now" className="font-bold py-6 px-10 bg-yellow-500 rounded-full text-3xl hover:bg-yellow-300 transition duration-300 ease-in-out flex items-center animate-bounce">
+      <Link
+        to="/order-now"
+        className="flex animate-bounce items-center rounded-full bg-yellow-500 py-6 px-10 text-3xl font-bold transition duration-300 ease-in-out hover:bg-yellow-300"
+      >
         Order Now
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="h-6 w-6 font-bold ml-4  "
+          className="ml-4 h-6 w-6 font-bold  "
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"

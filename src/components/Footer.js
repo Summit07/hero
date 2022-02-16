@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
 
 const Footer = () => {
-  return <div className='flex justify-center items-center h-16 bg-black text-white'>
+  return (
+    <div className="flex h-16 items-center justify-center bg-black text-white">
       <p>Copyright @ 2021 Hero of the year</p>
-  </div>;
+    </div>
+  );
 };
 
 export default Footer;
